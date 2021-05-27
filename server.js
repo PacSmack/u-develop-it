@@ -86,8 +86,7 @@ app.put('/api/candidate/:id', (req, res) => {
                 changes: result.affectedRows
             });
         }
-    });
-    
+    });    
 });
 
 app.get('/api/parties', (req, res) => {
